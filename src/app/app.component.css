@@ -1,0 +1,12 @@
+.nav-bar{
+    background-color: rgb(255, 159, 252);
+    height: 70px;
+}
+
+.but{
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgb(170, 255, 0);
+    border-radius: 5px;
+    border: solid black;
+}

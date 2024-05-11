@@ -1,0 +1,29 @@
+.but{
+    margin-top: 1em;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background: #540142;
+    border-radius: 2em;
+}
+
+.name{
+    padding-top: 1em;
+}
+
+.Sname{
+    padding-top: 1em;
+}
+
+.back{
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+.polz{
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(184, 116, 243);
+}

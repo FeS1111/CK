@@ -1,0 +1,19 @@
+<div class="nav-bar">
+  <h3>Навигационная панель</h3>
+  <div>
+    <a class="page-1" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+      <button class="but" >1</button>
+    </a>
+    <a class="page-2" routerLink="/page2">
+      <button class="but" >2</button>
+    </a>
+    <a class="page-3" routerLink="/page3">
+      <button class="but" >3</button>
+    </a>
+    <a class="page-4" [routerLink]="['show-name', 'Илья Мартынов']">
+      <button class="but" >Добавить</button>
+    </a>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
